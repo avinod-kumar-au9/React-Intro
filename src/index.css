@@ -1,0 +1,23 @@
+
+.change{
+    background-color: black;
+    color: white;
+}
+
+body{
+    background-color: white;
+    color: black;
+}
+
+.darkbutt{
+    color: black;
+    padding: 10px 20px;
+}
+
+.buttchange{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+

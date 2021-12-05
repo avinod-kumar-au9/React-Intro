@@ -1,0 +1,26 @@
+
+.rw{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   position: relative;
+
+}
+
+.cols{
+    height: 50%;
+    width: 100%;
+    border: 1px solid red;
+    overflow-y: auto;
+    
+    /* z-index: 2000; */
+}
+
+.cols::-webkit-scrollbar {
+    width: 100px;
+    color: blue;
+    background-color: blue;
+    height: 10px;
+  }
+.cols{
+    /* z-index: 1; */
+}
